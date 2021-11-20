@@ -1,6 +1,6 @@
 export class Usuario {
-  nome: string;
-  cpf: string;
-  idade: number;
+  nome!: string;
+  cpf!: string;
+  idade!: number;
 
 }

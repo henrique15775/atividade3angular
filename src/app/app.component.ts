@@ -8,8 +8,8 @@ import {Usuario} from '../shared/model/usuario';
 })
 export class AppComponent {
   titulo = 'Social IFPB';
-  usuario: Usuario;
-  usuarios: Array<Usuario>;
+  usuario!: Usuario;
+  usuarios!: Array<Usuario>;
 
   constructor() {
     this.usuario = new Usuario();
